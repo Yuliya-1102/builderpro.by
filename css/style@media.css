@@ -1,0 +1,354 @@
+@media all and (max-width: 1150px) {
+.header--flex {
+	font-size: 17px;
+}
+.menuTime {
+	display: none;
+}
+.menuTime.contact-menuTime {
+	display: block;
+}
+.burger {
+	display: none;
+}
+.menu_aktive {
+	display: none;
+}
+.image {
+	height: 52vw;
+	width: auto;
+	/*margin-bottom: 20px;*/
+}
+.projection {
+	height: 21vw;
+}
+
+.advantage-1_img {
+	width: 17.6vw;
+	height: 17.6vw;
+}
+.advantage-1 h3 {
+	font-size: 15px;
+
+}
+
+/*OBJECT*/
+.build_fence {
+	font-size: 27px;
+}
+
+.company {
+    font-size: 27px;
+}
+
+}
+
+
+@media all and (max-width: 840px) {
+.header-logo {
+    width: 95.6px;
+}
+.header {
+	height: 60px;
+}
+.header--flex {
+	font-size: 15px;
+}
+.menu li {
+    padding: 6px;
+}
+.about_name {
+	text-align: center;
+}
+.information_all {
+	/*width: 93vw;*/
+}
+.image {
+	margin-bottom: 20px;
+}
+.builder img {
+	display: none;
+}
+.about_us_margin{
+	display: block;
+}
+.advantage-1{
+	width: 50%;
+	padding: 0 20px;
+	margin-bottom: 15px;
+}
+h5{
+	font-size: 14px;
+}
+.menu2 li{
+	padding-left: 11px;	
+	font-size: 18px;
+}
+
+/*OBJECT*/
+
+.build_fence {
+	font-size: 25px;
+}
+.houses {
+	margin: 0 -3px;
+}
+.houses div {
+	width: 50%;
+}
+.houses div {
+	padding: 0 3px;
+	margin-bottom: 6px;
+}
+
+.object_2.object-width40 {
+	width: 60%;
+ }
+ .object_2.object-width35 {
+	width: 40%;
+ }
+ .object_2.object-width25 {
+	width: 40%;
+ }
+.object_2.object_2-width840 {
+ 	width: 60%;
+}
+
+.object_3.object-width35,
+.object_3.object-width30 {
+	width: 50%;
+	max-height: 300px;
+ }
+ 
+ .object_3.object_3-active {
+ 	display: none;
+ }
+
+ .company {
+    font-size: 22px;
+}
+.contact__flex {
+    margin: 30px 0px;
+}
+}
+
+
+@media all and (max-width: 730px) {
+body {
+	/*font-size: 14px;*/
+}
+.header {
+    height: 50px;
+ }
+.header--flex {
+	justify-content: flex-end;
+}
+
+.menu,
+.menuTime,
+.header-phone1 {
+	display: none;
+}
+.menuTime.contact-menuTime {
+	display: none;
+}
+.burger {
+	display: block;
+}
+.menu_aktive {
+	display: block;
+}
+.information_company h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.information p{
+	font-size: 17px;
+}
+.information_company h1{
+	font-size: 32px;
+}
+.about_us_margin {
+	margin-bottom: 40px;
+}
+.project{
+	width: 48.5%;
+}
+.projection {
+	margin-bottom: 30px;
+}
+h5{
+	font-size: 15px;
+}
+.cost h2 {
+	font-size: 20px;
+}
+.footer__logo {
+	height: 60px;
+
+}
+
+/*OBJECT*/
+.build_fence {
+	font-size: 20px;
+}
+.object_inform p{
+    font-size: 18px;
+}
+
+/*CONTACT*/
+.contact__flex {
+	display: block;
+}
+.contact__item {
+	width: 100%;
+}
+.company {
+    font-size: 25px;
+}
+}
+
+
+
+@media all and (max-width: 482px) {
+h2 {
+	font-size: 25px;
+}
+.information_all {
+	top: 10%;
+}
+.information {
+	display: none;
+}
+.information_company {
+	left: 50%;
+	transform: translateX(-50%);
+	margin-left: 0;
+}
+.information_company h1{
+	font-size: 25px;
+}
+.about_us {
+	margin-right: 0px;
+}
+.mail {
+	display: block;
+	
+}
+.contact-instagram {
+	margin-bottom: 10px;
+}
+.advant {
+
+    margin-bottom: 25px;
+}
+
+.advantage-1{
+	width: 100%;
+}
+.advantage_description {
+    margin: 0px auto 20px;
+
+}
+#object {
+	margin-bottom: 30px;
+}
+.object_item {
+	justify-content: center;
+}
+.projection {
+    margin-bottom: 25px;
+
+}
+.project{
+	width: 80%;
+	justify-content: center;
+}
+.order_1 {
+    margin-bottom: 40px;
+
+}
+.order {
+	font-size: 16px;
+}
+.foot ul {
+    margin-bottom: 35px;
+
+}
+.menu2 li {
+    padding-bottom: 2px;
+}
+
+/*OBJECT*/
+.fence {
+    margin-bottom: 20px;
+}
+.object_inform {
+    margin: 20px 0px;
+}
+.object_inform p{
+    font-size: 14px;
+}
+.build_fence {
+	font-size: 18px;
+}
+.houses {
+	margin: 0px;
+}
+.houses div {
+	width: 100%;
+}
+.houses div {
+	padding: 0 25px;
+	margin-bottom: 15px;
+	/*max-height: 270px;*/
+}
+.houses div.object_2 {
+	width: 100%;
+	max-height: 250px;
+ }
+.object_3.object-width35,
+.object_3.object-width30 {
+	width: 100%;
+	max-height: 270px;
+ }
+
+}
+
+
+
+
+
+@media all and (max-width: 370px) {
+.header {
+    height: 40px;
+}
+.header-logo {
+    width: 87px;
+    margin-top: 5px;
+}
+.menu__logo {
+    padding: 8px 0px 8px 0px;
+}
+.burger {
+    top: 12px;
+}
+.burger-active {
+    top: -46px;
+}	
+.information_company {
+    top:-20%;
+}
+.information_company h1{
+	font-size: 22px;
+}
+.menu2 li {
+    padding-left: 4px;
+    font-size: 14px;
+
+}
+.footer__logo {
+	height: 50px;
+
+}
+}
