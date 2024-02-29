@@ -18,9 +18,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/style@media.css">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+
 	<link rel="apple-touch-icon" sizes="180x180" href="img/logo/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/logo/icon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/logo/icon-16x16.png">
+
+	
  
 	
 	
@@ -33,9 +38,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<div class="header">
 		<div class="container header--flex">
-			<div class="header-logo">
+			<a href="#" class="header-logo">
 				<img src="img/logo/лого12.png" alt="Логотип компании Builder pro">
-			</div>
+			</a>
 			
 			<ul class="menu">
 				<li> <a href="index.html">Главная</a></li>
@@ -89,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="information_all">
 					<div class="information_company">
 						<h1>Строительная компания<br>
-						"Builder Pro"</h1>
+						<span class="inform">"Builder Pro"</span></h1>
 					</div>
 					<div class="information">
 						<p>Дома и коттеджи "под ключ", благоустройство территории, разработка проектно-сметной документации...</p>
@@ -110,8 +115,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div><br>
 			
 				<div class="number">
-					<div class="number-about">+375 (33) 32-00-891</div>
-					<div class="number-about">+375 (29) 66-83-500</div>
+					<div class="number-about"><a href="tel:+375333200891">+375 (33) 32-00-891</a></div>
+					<div class="number-about"><a href="tel:+375296683500">+375 (29) 66-83-500</a></div>
 				</div>
 				<div class="mail">
 					<div class="contact-instagram">
@@ -191,35 +196,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<p class="premium">Строительство премиум уровня</p>
 		<div class="object_item">
 			<div class="project project_1">
-          		<a href="object.html#build_fence"><img class="img_project-1" src="img/project/stroitelstvo-1.jpg" alt="Строительство домов, установка заборов">
-          		<h5>Строительство домов и <br>установка ограждений...</h5>
-          		<div class="pr1"></div></a>
+          		<a href="object.html#build_fence">
+					<div class="project__img">
+						<img class="img_project-1" src="img/project/stroitelstvo-1.jpg" alt="Строительство домов, установка заборов">
+					</div>					
+					<h5>Строительство домов и <br>установка ограждений...</h5>
+					<div class="pr1"></div>
+				</a>
           	</div>
           	<div class="project project_1">
-          		<a href="object.html#finishing"><img class="img_project-1" src="img/project/stroitelstvo-2.jpg" alt="Отделочные работы">
-          		<h5>Отделочные работы...</h5>
-          		<div class="pr1"></div></a>
+          		<a href="object.html#finishing">
+					<div class="project__img">
+						<img class="img_project-1" src="img/project/stroitelstvo-2.jpg" alt="Отделочные работы">
+					</div>					
+					<h5>Отделочные работы...</h5>
+					<div class="pr1"></div>
+				</a>
           	</div>
           	<div class="project project_1">
-          		<a href="object.html#masonry"><img class="img_project-1" src="img/masonry_work/кладка-7.jpg" alt="Кладка кирпича">
-          		<h5>Кладочные работы...</h5>
-          		<div class="pr1"></div></a>
+				<a href="object.html#masonry">
+					<div class="project__img">
+						<img class="img_project-1" src="img/masonry_work/кладка-7.jpg" alt="Кладка кирпича">
+					</div>
+					<h5>Кладочные работы...</h5>
+					<div class="pr1"></div>
+				</a>
           	</div>
 
 			<div class="project project_1">
-          		<a href="object.html#cement"><img class="img_project-1" src="img/cement/бетон-23.jpg" alt="Бетонные работы">
-          		<h5>Бетонные работы...</h5>
-          		<div class="pr1"></div></a>
+          		<a href="object.html#cement">
+					<div class="project__img">
+						<img class="img_project-1" src="img/cement/бетон-23.jpg" alt="Бетонные работы">
+					</div>
+					<h5>Бетонные работы...</h5>
+					<div class="pr1"></div>
+				</a>
           	</div>
           	<div class="project project_1">
-          		<a href="object.html#repository"><img class="img_project-1" src="img/storage/sklad.jpg" alt="Строительство склада">
-          		<h5>Строительство складских<br>комплексов...</h5>
-          		<div class="pr1"></div></a>
+       			<a href="object.html#repository">
+					<div class="project__img">
+						<img class="img_project-1" src="img/storage/sklad.jpg" alt="Строительство склада">
+					</div>
+					<h5>Строительство складских<br>комплексов...</h5>
+					<div class="pr1"></div>
+				</a>
           	</div>
           	<div class="project project_1">
-          		<a href="object.html#sanitary"><img class="img_project-1" src="img/sanitary/Сантехника-4.jpg" alt="Электромонтажные и сантехнические работы">
-          		<h5>Электромонтажные и<br> сантехнические работы...</h5>
-          		<div class="pr1"></div></a>
+       			<a href="object.html#sanitary">
+					<div class="project__img">
+						<img class="img_project-1" src="img/sanitary/Сантехника-4.jpg" alt="Электромонтажные и сантехнические работы">
+					</div>
+          			<h5>Электромонтажные и<br> сантехнические работы...</h5>
+          			<div class="pr1"></div>
+				</a>
           	</div>
 		</div>
 </div> <!--!object-->
@@ -254,8 +283,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</ul> 
 			
 				<div class="phone">
-					<p>+375 (33) 32-00-891</p><br>
-					<p>+375 (29) 66-83-500</p><br>
+					<a href="tel:+375333200891"><p>+375 (33) 32-00-891</p></a><br>
+					<a href="tel:+375296683500"><p>+375 (29) 66-83-500</p></a><br>
 					<div class="foot_instagram-img">
 						<img src="img/instagram/Insta-grey-color.png" height="40" alt="Логотип строительной компнаии Builder pro">
 						<div class="foot_instagram-text">
@@ -277,7 +306,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>	
 	</div>
 	
-
+</div>
 
 </body>
 </html>
